@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="QuizGame.exe" version="1.0.0.0" publicKeyToken="134e432c7ee82d7e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="QuizGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="QuizGame.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QuizGame.exe" size="142336">
+      <assemblyIdentity name="QuizGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+1ieACIE5l17IlUTp5jGPNqV7wR3WXep89cAfvFWRVs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="QuizGame.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=IQRA-DESKTOP\abcd" issuerKeyHash="954c1fc08b950100c661444736573edd607f299a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4R9pKiPnwkW2TM8CjsqNu5NFdQBt9XJmHY/8n8M8n8k=</DigestValue></Reference></SignedInfo><SignatureValue>wYDJcJ+wYsZFsAbpQfHpqoFUvwfjqFoPPlc97hIx+jUPXnUmN1bGWFQN1nevPxZVV/Bh+ZX3mybnMniVbhSLMxvdX1f55RIP3rRgifg2inqZ0IYkq7304bNs3glu3V2a97g7kF4Y9crq8XUlvIjQxU8aNpULGpTrbH0Tstz9MPw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>whEKKr+ICww/uUZotOwdnVZlxpsGvo+D/f78CwufFMsBTXc6iE8HNTB6B9v3LLZwAGrSzBneW7lnlElldcv1iSqQ2KCcPjCUzJedU75ZC0oyJSsYgPr+4weexzwLF6LeSuw8ycF2zNh4ElpRZFvKgOrOgwr0/qPd35+qk85GLck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c99f3cc39ffc8f1d6672f56d00754593bb8dca8e02cf4cb645c2e7232a691fe1" Description="" Url=""><as:assemblyIdentity name="QuizGame.exe" version="1.0.0.0" publicKeyToken="134e432c7ee82d7e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=IQRA-DESKTOP\abcd</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rbpCzGxgjayhmn8GFhxzPFO9NBjAcIvsL4RuyjyvK84=</DigestValue></Reference></SignedInfo><SignatureValue>b81oVqWEvxcPHhEmeVG7y6LpEXHqf4um4zWLpdV/vyXSkQJAxcMsezMnwy+nWbiQUJQMm3NeUQ4EhMee0YBJfkNe+ZwiZ/wQH4i/jeBz8EqioVAnU5bcHftVF9L9BPYuUFkO0IhZ59q6EOL0almY5rL7JyMy8KGmI+pmcok98Tg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>whEKKr+ICww/uUZotOwdnVZlxpsGvo+D/f78CwufFMsBTXc6iE8HNTB6B9v3LLZwAGrSzBneW7lnlElldcv1iSqQ2KCcPjCUzJedU75ZC0oyJSsYgPr+4weexzwLF6LeSuw8ycF2zNh4ElpRZFvKgOrOgwr0/qPd35+qk85GLck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQOnhG+yCX27JOMofcAQFWujANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIASQBRAFIAQQAtAEQARQBTAEsAVABPAFAAXABhAGIAYwBkMB4XDTE4MDcyMTIxMTQxNVoXDTE5MDcyMjAzMTQxNVowLTErMCkGA1UEAx4iAEkAUQBSAEEALQBEAEUAUwBLAFQATwBQAFwAYQBiAGMAZDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwhEKKr+ICww/uUZotOwdnVZlxpsGvo+D/f78CwufFMsBTXc6iE8HNTB6B9v3LLZwAGrSzBneW7lnlElldcv1iSqQ2KCcPjCUzJedU75ZC0oyJSsYgPr+4weexzwLF6LeSuw8ycF2zNh4ElpRZFvKgOrOgwr0/qPd35+qk85GLckCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAcoSVeJ/HibunWLMWEYjdIWH6KXBhYVL05duvxJI28JAczj55NFHsYDr6EweIBoGmWvCvI7ZqWsX2mKFYZorWLNQ3gxYeKvJbigle3BMCMyOeEu/wp5k3R5YbPXJ5MncxDehCz30RMh2V+wSP7u2BN05GhN3OhJCdmWFc7Yx3fHg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
